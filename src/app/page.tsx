@@ -16,7 +16,7 @@ export default function Page() {
                 TRY IT ON UA PLAYGROUND
                 <TbArrowUpRight />
               </Button>
-              <Button className='mt-5 rounded-full' variant='ghost' color='secondary'>
+              <Button as={Link} href="https://github.com/zynoxslash/Orrery-Web-App" className='mt-5 rounded-full' variant='ghost' color='secondary'>
                 LEARN HOW WE DO IT
                 <TbArrowUpRight />
               </Button>
