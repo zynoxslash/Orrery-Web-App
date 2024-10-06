@@ -1,4 +1,5 @@
 'use client'
+// this page building...
 
 import { scripts } from '@/libs/scripts'
 import Image from 'next/image'
