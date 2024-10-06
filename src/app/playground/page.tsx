@@ -143,10 +143,6 @@ export default function Page() {
               className='bg-zinc-950 shadow-2xl p-4 w-[30%] right-0 h-full min-h-screen fixed z-50'
             >
               <div className='w-full h-[50%] rounded-2xl bg-zinc-900 mb-4'>
-                <Button variant='flat' color='secondary' className='z-50 absolute top-0 right-0 m-6'>
-                  <Image src='/games/astronot.png' width={500} height={500} className='w-8 h-8 relative mt-6' />
-                  PLAY
-                </Button>
                 <Canvas>
                   {target.key == 'sun' ? (
                     <mesh>
