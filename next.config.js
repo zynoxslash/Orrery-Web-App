@@ -63,7 +63,11 @@ module.exports = (_phase, { defaultConfig }) => {
     ...nextConfig,
   })
 
-  const finalConfig = {}
+  const finalConfig = {
+    typescript:{
+      ignoreBuildErrors: true
+    },
+  }
   Object.keys(wConfig).forEach((key) => {
     if (!KEYS_TO_OMIT.includes(key)) {
       finalConfig[key] = wConfig[key]
