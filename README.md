@@ -21,8 +21,9 @@ The **Orrery Web App** is an interactive 3D visualization of the solar system, f
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/your-username/orrery-web-app.git
+   git clone https://github.com/zynoxslash/Orrery-Web-App.git
    cd orrery-web-app
+```
 
 Install dependencies:
 npm install
