@@ -12,6 +12,9 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 })
 
 const nextConfig = {
+  typescript:{
+      ignoreBuildErrors: true
+    },
   // uncomment the following snippet if using styled components
   // compiler: {
   //   styledComponents: true,
@@ -63,11 +66,7 @@ module.exports = (_phase, { defaultConfig }) => {
     ...nextConfig,
   })
 
-  const finalConfig = {
-    typescript:{
-      ignoreBuildErrors: true
-    },
-  }
+  const finalConfig = {}
   Object.keys(wConfig).forEach((key) => {
     if (!KEYS_TO_OMIT.includes(key)) {
       finalConfig[key] = wConfig[key]
