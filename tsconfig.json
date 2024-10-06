@@ -19,7 +19,7 @@
     ],
     "baseUrl": "src/",
     "paths": {
-      "@/lib/*": ["lib/*"],
+      "@/libs/*": ["libs/*"],
       "@/components/*": ["components/*"],
       "@/models/*": ["models/*"],
       "@/hooks/*": ["hooks/*"],
